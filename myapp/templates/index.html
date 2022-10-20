@@ -1,0 +1,199 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'portfolio.png' %}">
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    </head>
+    <body>
+
+        <!--navbar section-->
+        <section id="nav-bar" class="container">
+            <header class="nav-bar">
+                <div class="brand"><a href="#hero"><h1>Happy Blackie</h1></a></div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#hire">Hire Me</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Login</a></li> 
+                    </ul>
+                </div>
+            </header>
+        </section>
+        <!--end navbar section-->
+
+
+        <!--hero section-->
+        <section id="hero" class="hero container">
+
+            <div class="hero-info">
+                <h1 class="hero-info-heading">I Design <br> Your Dream</h1>
+                <p class="hero-info-subheading">I am a web designer</p>
+                <a href="#" type="button" class="hero-info-button">Portfolio</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="{% static 'happy.png' %}">
+            </div>
+
+        </section>
+        <!--end hero section-->
+
+        <!--about section-->
+        <section id="about" class="about container">
+
+            <div class="about-info">
+                <h1 class="about-info-heading">About Me</h1>
+                <p class="about-info-desc">
+                     Lorem, ipsum dolor sit amet consectetur
+                     adipisicing elit. Natus omnis commodi aliquam facilis veritatis
+                      magni, sint consectetur architecto cum odit temporibus vitae ip
+                      sa? Dolores asperiores aut obcaecati nobis, deleniti rem!
+                </p>
+                <a href="#" type="button" class="about-info-button">Download Resume</a>
+            </div>
+
+            <div class="about-img">
+                <div class="about-img-wrapper">
+                    <img src="{% static 'laptop.png' %}" alt="">
+                </div>
+            </div>
+        </section>
+        <!--end about section-->
+
+
+        <!--services section-->
+        <section id="services" class="services container">
+
+            <div class="services-header">
+
+                <h1 class="services-header-heading">services</h1>
+                <p class="services-header-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus 
+                    excepturi nulla, reprehenderit animi minima eum, quidem facilis
+                     voluptate consequuntur provident assumenda eaque quisquam 
+                     laudantium eos neque nobis quibusdam hic culpa.
+                </p>
+
+            </div>
+
+            <div class="services-info">
+                <div class="service">
+
+                    <div class="service-card">
+
+                        <div class="service-front">
+                            <i class="fa-solid fa-building"></i>
+                            <h1 class="service-front-heading">Web Design <br> &nbsp;(Back end)</h1>
+                        </div>
+                        <div class="service-back">
+                            <h1 class="service-back-heading">Web Design</h1>
+                            <p class="service-back-desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Maiores sapiente, maxime sed dolor autem aliquid ad 
+                                 labore laboriosam rerum, quasi distinctio? Doloremque
+                                  odio aut sint pariatur praesentium, expedita fugiat
+                                   consequuntur asperiores! Rerum velit adipisci 
+                                   doloremque commodi nihil minus dicta mollitia!
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="service">
+                    <div class="service-card">
+
+                        <div class="service-front">
+                            <i class="fa-solid fa-building"style="color:white"></i>
+                            <h1 class="service-front-heading">Fro<span>nt End Dev</span></h1>
+                        </div>
+                        <div class="service-back">
+                            <h1 class="service-back-heading">Front End Dev</h1>
+                            <p class="service-back-desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Maiores sapiente, maxime sed dolor autem aliquid ad 
+                                 labore laboriosam rerum, quasi distinctio? Doloremque
+                                  odio aut sint pariatur praesentium, expedita fugiat
+                                   consequuntur asperiores! Rerum velit adipisci 
+                                   doloremque commodi nihil minus dicta mollitia!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="service">
+                    <div class="service-card">
+
+                        <div class="service-front">
+                            <i class="fa-solid fa-wrench"></i>
+                            <h1 class="service-front-heading">UiPath</h1>
+                        </div>
+                        <div class="service-back">
+                            <h1 class="service-back-heading">UiPath</h1>
+                            <p class="service-back-desc">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Maiores sapiente, maxime sed dolor autem aliquid ad 
+                                 labore laboriosam rerum, quasi distinctio? Doloremque
+                                  odio aut sint pariatur praesentium, expedita fugiat
+                                   consequuntur asperiores! Rerum velit adipisci 
+                                   doloremque commodi nihil minus dicta mollitia!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end services section-->
+
+
+         <!-- hire section-->
+
+         <section id="hire" class="hire container">
+            <div class="hire-heading">Hire me to buid your dream website</div>
+            <a href="#" type="button" class="hire-button">Hire Me!!</a>
+         </section>
+         <!-- end hire section-->
+
+
+              <!-- footer section-->
+              <section id="footer" class="footer container">
+
+                    <div class="footer-contact">
+                        <h1 class="footer-contact-heading">Contact with me</h1>
+                        <p class="footer-contact-info">Email: happyblackie01@gmail.com</p>
+                        <p class="footer-contact-info">Mobile: +254 743 828 215</p>
+                    </div>
+
+                    <div class="footer-social-follow">
+                        <h1 class="footer-social-follow-heading">Follow me</h1>
+                        <div class="footer-social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook" ></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+              </section>
+              <!-- end footer section-->
+        
+        <script src="https://kit.fontawesome.com/08699c418b.js" crossorigin="anonymous"></script>
+        <!-- javascript -->
+        <script src="{% static 'myapp.js' %}"></script>
+        <!-- <script src="./app.js"></script> >>this for uploading in w3 space -->
+    </body>
+</html> 
